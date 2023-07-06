@@ -9,7 +9,7 @@ pipeline {
        }
       stage('Deploy Code') {
         when {
-            branch 'uat'
+            branch 'main'
         }
           steps {
               echo "Deploying Code"
